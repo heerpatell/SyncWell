@@ -1,0 +1,31 @@
+.footer-main {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #eeeeee;
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	.footer-left {
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+		justify-items: space-between;
+		.footer-txt {
+			margin-right: 1.5rem;
+		}
+	}
+	.footer-middle {
+		display: flex;
+		align-items: center;
+		.footer-txt {
+			margin-right: 0.5rem;
+		}
+	}
+	.footer-right {
+		display: flex;
+		.footer-txt {
+			margin-right: 1.5rem;
+		}
+	}
+}

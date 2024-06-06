@@ -1,0 +1,46 @@
+.outerInvitedUser {
+	.inviteduser-body {
+		margin: 2rem;
+		padding: 1rem;
+		.section-2-invitedUser {
+			.by-who-and-time-row {
+				margin: 0.8rem 0;
+				display: flex;
+				align-items: center;
+				.by-who-time-row-btn {
+					background-color: #1f8b8b;
+					padding: 0.6rem;
+					margin-right: 1rem;
+				}
+			}
+			.inviteduser-description {
+				background-color: #f1f1f1;
+				padding: 0.8rem;
+				border-radius: 0.4rem;
+			}
+		}
+		.section-3-date-time-loc {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin: 2rem 0;
+			.section-3-date {
+				width: 40%;
+			}
+			.section-3-time {
+				width: 20%;
+			}
+			.section-3-loc {
+				width: 30%;
+				display: flex;
+				flex-direction: column;
+				.input-phone-number input {
+					outline: none !important;
+					border: none !important;
+					box-shadow: none !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+.mainouterdash {
+	background-color: #f1f1fb;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	.dash-left {
+		width: 18%;
+	}
+	.dash-middle {
+		width: 62%;
+		padding: 1.9rem;
+		.dash-middle-content {
+			display: grid;
+			grid-template-rows: 1fr auto;
+			grid-gap: 10px;
+			// margin: 0.4rem 1rem;
+			.dash-middle-content-firstRow {
+				width: 100%;
+				height: 17rem;
+				background-color: #ffffff;
+				border-radius: 0.2rem;
+			}
+			.dash-middle-content-secondRow {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 10px;
+				.dash-middle-content-secondRow-div {
+					background-color: #ffffff;
+					height: 18rem;
+				}
+			}
+		}
+	}
+	.dash-right {
+		width: 20%;
+		background-color: #fafafa;
+		padding: 1.5rem 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.dash-schedules {
+			.dash-schedules-header {
+				padding-bottom: 1rem;
+			}
+			.dash-schedules-schedulelist {
+				display: grid;
+				gap: 1rem;
+				.list-item {
+					transition: ease-in 0.2s;
+					border-radius: 5px;
+					padding: 10px;
+					&:hover {
+						background: #eee;
+					}
+				}
+			}
+		}
+		.dash-holidays {
+			.dash-holidays-header {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-top: 1rem;
+			}
+			.dateholiday {
+				display: flex;
+				justify-content: space-around;
+				background-color: #2975bc;
+				border-radius: 0.2rem;
+				padding: 0.6rem;
+			}
+			.datewithtxt-Dashboard {
+				display: flex;
+				align-items: center;
+				padding-bottom: 0.2rem;
+				.holiday-date-dashboard {
+					background-color: #2975bc;
+					border-radius: 0.2rem;
+					padding: 0.4rem;
+				}
+				.holiday-txt-dashboard {
+					padding: 0 1rem;
+				}
+			}
+		}
+	}
+}

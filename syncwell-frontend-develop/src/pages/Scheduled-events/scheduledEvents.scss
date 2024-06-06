@@ -1,0 +1,74 @@
+.scheduledEvents-mainOuter {
+	background-color: #f1f1fb;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	.sevents-left {
+		width: 18%;
+	}
+	.sevents-rest {
+		width: 82%;
+		margin: 0 3rem;
+		.sevents-header {
+			margin-top: 2rem;
+			display: flex;
+			justify-content: space-between;
+			.orgAttenToggle {
+				display: flex;
+				.asOrgT {
+					cursor: pointer;
+					background-color: #ffffff;
+					padding: 0.6rem;
+					border-top-left-radius: 0.4rem;
+					border-bottom-left-radius: 0.4rem;
+				}
+				.asAttenT {
+					cursor: pointer;
+					background-color: #ffffff;
+					padding: 0.6rem;
+					border-top-right-radius: 0.4rem;
+					border-bottom-right-radius: 0.4rem;
+				}
+				.selected {
+					background-color: #1f8b8b;
+					color: #ffffff;
+				}
+			}
+		}
+		.scheudled-box {
+			background-color: #ffffff;
+			margin: 4rem 2rem;
+			border-radius: 0.4rem;
+			.sbox-first-row {
+				padding: 1rem 0;
+				.sbox-first-row-left {
+					width: 30%;
+					display: flex;
+					justify-content: space-evenly;
+					.sbox-fr-upcoming {
+						cursor: pointer;
+						text-align: center;
+					}
+					.sbox-fr-past {
+						width: 30%;
+						cursor: pointer;
+						text-align: center;
+					}
+					.notselectedoption {
+						color: #888888;
+					}
+					.selectedoption {
+						border-style: none none solid none;
+						border-color: #1f8b8b;
+					}
+				}
+			}
+			.sbox-second-row {
+				background-color: #f8f8f8;
+				text-align: center;
+			}
+			.sbox-rest-rows {
+			}
+		}
+	}
+}

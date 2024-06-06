@@ -1,0 +1,26 @@
+.dateSpecificOuter {
+	background-color: #ffffff;
+	width: 50%;
+	height: 100%;
+	padding: 1rem;
+	.dateSpecific-sub01 {
+		margin-top: 1rem;
+		&-addBtn {
+			margin-top: 1rem;
+			display: flex;
+			align-items: center;
+			color: #1f8a8b;
+			gap: 0.2rem;
+			border: 1px solid #1f8a8b;
+			width: fit-content;
+			padding: 0.6rem;
+			border-radius: 0.2rem;
+			cursor: pointer;
+		}
+		&-dateTimeSection {
+			padding: 1rem;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

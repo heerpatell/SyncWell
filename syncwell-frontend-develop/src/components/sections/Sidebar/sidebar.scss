@@ -1,0 +1,36 @@
+.mainoutersidebar {
+	background-color: #fafafa;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 260px;
+	.section1 {
+		padding: 10% 0;
+		.scheduleameetBtn {
+			display: flex;
+			justify-content: center;
+			margin: 2rem 0 0;
+			align-items: center;
+			text-align: center;
+			padding: 0.7rem;
+			background-color: #1f8b8b;
+			border-radius: 0;
+			width: 100%;
+			cursor: pointer;
+		}
+	}
+	.section2 {
+		display: grid;
+		gap: 2rem;
+		padding: 2rem 0.5rem;
+	}
+	.section3 {
+		margin: 1rem 0;
+		.settingHelpLogoutOuter {
+			margin: 10px 15px 0;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

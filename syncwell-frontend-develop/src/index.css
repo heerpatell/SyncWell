@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.loading-animation {
+	animation: loadingSpinAnime 2s linear infinite;
+}
+
+@keyframes loadingSpinAnime {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.date-picker-root .MuiButtonBase-root.MuiPickersDay-root.Mui-selected {
+	background: #1f8b8b !important;
+	color: white !important;
+}
+
+.react-international-phone-country-selector-button {
+	padding: 20px 8px !important;
+}

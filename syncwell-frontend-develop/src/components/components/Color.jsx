@@ -1,0 +1,13 @@
+export const GreenDark = "#1F8B8B";
+export const GreenNormal = "#1F8A8B";
+export const DarkGray = "#444444";
+export const LightGray = "#888888";
+export const White = "#FFFFFF";
+export const ShadyGray = "#E1E1E1";
+export const LightGray02 = "#DDDDDD";
+export const LightGray03 = "#FAFAFA";
+export const LightGray04 = "#EEEEEE";
+export const LightGray05 = "#D7D7D7";
+export const LightPurple = "#DFDFFF";
+export const ShadyBlack = "#222222";
+export const LightBlue = "#33B9D6";

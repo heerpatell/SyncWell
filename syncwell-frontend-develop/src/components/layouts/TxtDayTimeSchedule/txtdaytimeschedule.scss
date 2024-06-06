@@ -1,0 +1,10 @@
+.mainOuterTxtDayTimeSchedule {
+	display: flex;
+	align-items: center;
+	.outerContentForDayTimeSchedule {
+		padding: 0 1rem;
+		.outerForDayTimeSchedule {
+			display: flex;
+		}
+	}
+}

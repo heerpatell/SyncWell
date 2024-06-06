@@ -1,0 +1,16 @@
+.navbar-outer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.nav-left {
+	}
+	.nav-right {
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+		margin-right: 1rem;
+		.nav-right-login {
+			padding: 0.8rem;
+		}
+	}
+}

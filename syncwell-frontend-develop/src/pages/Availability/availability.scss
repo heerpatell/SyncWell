@@ -1,0 +1,88 @@
+.outer-availability {
+	background-color: #f1f1fb;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	.availability-left {
+		width: 18%;
+	}
+	.availability-rest {
+		width: 62%;
+		padding: 2.1rem;
+	}
+	.availability-upper-box {
+		background-color: #ffffff;
+		width: 100%;
+		height: 110px;
+		border-radius: 0.3rem;
+		&-fr {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1rem 2rem;
+			// &-left {
+			// }
+			&-right {
+				display: flex;
+
+				&-list {
+					background-color: #1f8b8b;
+					padding: 0.7rem;
+					border-radius: 0.2rem;
+					// border-top-left-radius: 0.2rem;
+					// border-bottom-left-radius: 0.2rem;
+					cursor: pointer;
+				}
+				&-calender {
+					background-color: #f1f1fb;
+					padding: 0.7rem;
+					border-top-right-radius: 0.2rem;
+					border-bottom-right-radius: 0.2rem;
+					cursor: pointer;
+				}
+			}
+		}
+		&-sr {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 2rem;
+			// &-left {
+			// }
+			&-right {
+				display: flex;
+
+				&-leftArrow {
+					background-color: #f1f1fb;
+					padding: 0.7rem;
+					border-top-left-radius: 0.2rem;
+					border-bottom-left-radius: 0.2rem;
+					cursor: pointer;
+				}
+				&-leftArrow:hover {
+					background-color: #1f8b8b;
+					color: #f1f1fb;
+				}
+				&-rightArrow {
+					background-color: #f1f1fb;
+					padding: 0.7rem;
+					border-top-right-radius: 0.2rem;
+					border-bottom-right-radius: 0.2rem;
+					cursor: pointer;
+				}
+				&-rightArrow:hover {
+					background-color: #1f8b8b;
+					color: #f1f1fb;
+				}
+			}
+		}
+	}
+	.avaiability-below-box {
+		width: 100%;
+		&-list-view {
+			display: flex;
+			gap: 0.4rem;
+			margin-top: 0.4rem;
+		}
+	}
+}
